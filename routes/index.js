@@ -1,10 +1,14 @@
-// 6. 
+// require express
 const express = require('express')
 const router = express.Router()
 const applicationController = require('../controllers/application')
+const storesController = require('../controllers/stores')
 
-// 7. tell the user to go here
+// tell the user to go here -
 router.get('/', applicationController.index)
 
-// 8. export the router to the other files within the application
+// to see the stores
+router.get('/stores',)
+
+//export the router to the other files within the application
 module.exports = router
