@@ -16,7 +16,9 @@ const productController = {
         const productId = req.params.productsId
         Product.findById(productId)
         .then(product =>{
-            res.send(product)
+            // res.send(product)
+            res.render('products/show', {product: product})
+            
         })
     }
 

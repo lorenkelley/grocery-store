@@ -16,9 +16,10 @@ const storesController = {
     },
     show: (req, res) => {
         const storeId = req.params.storesId
-        Store.findById(storeId)
+        Store.findById(storeId).populate('products')
             .then((store) => {
-                res.send(store)
+                // res.send(store)
+                res.render('stores/show', {store: store})
             })
     }
 }
