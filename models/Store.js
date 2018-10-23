@@ -3,7 +3,7 @@ const mongoose = require('../db/connections')
 // declare Schema
 const Schema = mongoose.Schema
 
-// Schema is a like a blueprint
+// Schema is a like a blueprint telling the program what to expect 
 const Store = new Schema({
     name: String,
     location: String,
