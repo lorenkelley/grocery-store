@@ -9,9 +9,13 @@ const Store = new Schema({
     location: String,
     hours: String,
     products: [
+        // array of objects 
+        
         {
             type: Schema.Types.ObjectId,
+            // type of schema that exists in mongoDM that is a class
             ref: 'Product'
+            // tells us what the class is
         }
     ]
 })
