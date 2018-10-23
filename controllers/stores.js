@@ -1,4 +1,5 @@
 const Store = require('../models/Store')
+const Product = require('../models/Product')
 
 const storesController = {
     index: (req, res) => {
