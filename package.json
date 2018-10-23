@@ -1,0 +1,22 @@
+{
+  "name": "grocery-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenkelley52/grocery-store.git"
+  },
+  "author": "Loren Kelley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorenkelley52/grocery-store/issues"
+  },
+  "homepage": "https://github.com/lorenkelley52/grocery-store#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
