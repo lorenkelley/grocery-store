@@ -12,6 +12,7 @@ router.get('/stores', storesController.index)
  
 router.get('/stores/new', storesController.new)
 router.get('/stores/:storesId', storesController.show)
+// go to  a specfic store and find that store by id
 
  //  go into the store go to the stores id and just get that stores products only
 router.get('/stores/:storesId/products', productsController.index)

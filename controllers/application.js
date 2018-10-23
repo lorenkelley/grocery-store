@@ -1,6 +1,7 @@
 const applicationController = {
     index: (req, res) => {
-        res.send("Hey whats up this is app index")
+        res.render('app/index')
+        // connecting to the index.hbs so that the client will see something on the screen
     }
 }
 

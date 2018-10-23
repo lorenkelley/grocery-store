@@ -9,6 +9,7 @@ const routes = require('./routes/index')
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use('/', routes)
+app.set('view engine', 'hbs')
 
 // 5.  make sure the port is listening to port 3000 
 const PORT = process.env.PORT || 3005
