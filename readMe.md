@@ -1,7 +1,7 @@
 ## Introduction 
 ### First Full Crud Application(Practice!)
 
- The purpose of this project is to familiarize myself with the process and order operations to successfully build out an application using the MEHN stack (getting those reps in!). 
+ The purpose of this project is to familiarize myself with the process to successfully build out an application using the MEHN stack (getting those reps in!). 
 
 ## Dependencies
 
